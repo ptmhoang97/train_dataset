@@ -1,3 +1,4 @@
+---START CLICK---
 var startClickConnect = function startClickConnect(){
     var clickConnect = function clickConnect(){
         console.log("Connnect Clicked - Start");
@@ -16,5 +17,9 @@ var startClickConnect = function startClickConnect(){
     return stopClickConnectHandler;
 };
 var stopClickConnect = startClickConnect();
+---START CLICK---
 
+
+---STOP CLICK---
 stopClickConnect();
+---STOP CLICK---
